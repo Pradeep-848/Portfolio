@@ -6,7 +6,7 @@ import dbquest from '../assets/projects/dbquest.jpg'
 
 const projectsData = [
   { id: 1, title: 'Vintage Spare Parts', description: 'Vintage Spare Parts specializes in sourcing, restoring, and providing authentic, high-quality spare parts for classic vehicles.', img: vintage },
-  { id: 2, title: 'Alzamil', description: 'ERP Application', img: aztracon },
+  { id: 2, title: 'Alzamil', description: 'ERP Application', img: aztracon, link: 'https://play.google.com/store/search?q=al+zamil+app&c=apps&hl=en'  },
   { id: 3, title: 'DBQuest', description: 'Custom-built Enterprise Application', img: dbquest },  
   // Add more projects as needed
 ];
@@ -34,8 +34,10 @@ function Projects() {
         <div className="cards-container" ref={scrollContainerRef}>
           {projectsData.map((project) => (
             <div key={project.id} className="project-card">
+              <a href={project.link} target='_blank' rel='noopener noreferrer'>
               <img src={project.img} alt={project.title} className="project-image" />
               <h4 className='title'>{project.title}</h4>
+              </a>
               <p className='description'>{project.description}</p>
             </div>
           ))}
