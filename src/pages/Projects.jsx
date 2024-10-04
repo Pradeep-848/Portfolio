@@ -34,7 +34,7 @@ function Projects() {
         <div className="cards-container" ref={scrollContainerRef}>
           {projectsData.map((project) => (
             <div key={project.id} className="project-card">
-              <a href={project.link} target='_blank' rel='noopener noreferrer'>
+              <a href={project.link} target='_blank' rel='noopener noreferrer' style={{ textDecoration : 'none' }}>
               <img src={project.img} alt={project.title} className="project-image" />
               <h4 className='title'>{project.title}</h4>
               </a>
