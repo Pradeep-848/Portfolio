@@ -14,7 +14,7 @@ function Navbar() {
 
   return (
     <header>
-      <h3>PORTFOLIO</h3>
+      <h3>PRADEEP</h3>
       <nav ref={navRef}>
         <Link to="/" onClick={showNavbar}>About</Link>
         <Link to="/skills" onClick={showNavbar}>Skills</Link>
