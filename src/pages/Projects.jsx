@@ -1,13 +1,15 @@
 import React, { useRef } from 'react';
 import '../styles/Projects.css';
 import vintage from '../assets/projects/Vintage.jpg'
+import weather from '../assets/projects/weather.jpg'
 import aztracon from '../assets/projects/aztracon.webp'
 import dbquest from '../assets/projects/dbquest.jpg'
 
 const projectsData = [
-  { id: 1, title: 'Vintage Spare Parts', description: 'Vintage Spare Parts specializes in sourcing, restoring, and providing authentic, high-quality spare parts for classic vehicles.', img: vintage },
-  { id: 2, title: 'Alzamil', description: 'ERP Application', img: aztracon, link: 'https://play.google.com/store/search?q=al+zamil+app&c=apps&hl=en'  },
-  { id: 3, title: 'DBQuest', description: 'Custom-built Enterprise Application', img: dbquest },  
+  { id: 1, title: 'Alzamil', description: 'ERP Application', img: aztracon, link: 'https://play.google.com/store/search?q=al+zamil+app&c=apps&hl=en'  },
+  { id: 2, title: 'Weather App', description: 'Weather app providing current weather and forecast with cities-based search', img: weather, link: 'https://weather-app-theta-sooty-23.vercel.app/'  },
+  { id: 3, title: 'Vintage Spare Parts', description: 'Vintage Spare Parts specializes in sourcing, restoring, and providing authentic, high-quality spare parts for classic vehicles.', img: vintage },
+  { id: 4, title: 'DBQuest', description: 'Custom-built Enterprise Application', img: dbquest },  
   // Add more projects as needed
 ];
 
