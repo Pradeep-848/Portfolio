@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import '../styles/Projects.css';
 import vintage from '../assets/projects/Vintage.jpg'
-import weather from '../assets/projects/weather.jpg'
+import weather from '../assets/projects/weather.png'
 import aztracon from '../assets/projects/aztracon.webp'
 import dbquest from '../assets/projects/dbquest.jpg'
 
