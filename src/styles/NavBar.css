@@ -91,6 +91,11 @@ nav {
 }
 
 @media only screen and (max-width: 1024px) {
+	
+	button {
+		margin-bottom: 3%;
+	}
+	
 	header .nav-btn {
 		visibility: visible;
 		opacity: 1;
