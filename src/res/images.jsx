@@ -7,6 +7,8 @@ import git from '../assets/icons/git.png'
 import sql from '../assets/icons/sql.png'
 import spring from '../assets/icons/spring.png'
 import postman from '../assets/icons/postman.png'
+import vercel from '../assets/icons/vercel.png'
+
 
 const images = {
     values: {
@@ -19,6 +21,7 @@ const images = {
       sql: sql, 
       spring: spring, 
       postman: postman, 
+      vercel: vercel, 
     },
   };
   
