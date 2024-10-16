@@ -141,6 +141,11 @@
   box-shadow: 0 4px 15px rgb(253, 114, 0); /* Enhanced shadow effect on hover */
 }
 
+.skill-icon-10:hover {
+  background-color: transparent; /* Postman - White */
+  box-shadow: 0 4px 15px rgb(255, 255, 255); /* Enhanced shadow effect on hover */
+}
+
 /* Keyframes for smooth and continuous scrolling */
 @keyframes marquee {
   0% {
