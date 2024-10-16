@@ -13,6 +13,7 @@ const git = images.values.git;
 const sql = images.values.sql;
 const spring = images.values.spring;
 const postman = images.values.postman;
+const vercel = images.values.vercel;
 
 // Skill data array
 const skillsData = [
@@ -25,6 +26,7 @@ const skillsData = [
   { id: 7, title: 'MsSql', img: sql },
   { id: 8, title: 'Spring', img: spring },
   { id: 9, title: 'Postman', img: postman },
+  { id: 10, title: 'Vercel', img: vercel },
 ];
 
 function Skills() {
