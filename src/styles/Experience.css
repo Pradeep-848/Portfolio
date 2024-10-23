@@ -1,0 +1,73 @@
+.experience-container {
+  padding: 20px;
+}
+
+.experience-title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.experience-title:hover {
+  color: #fff000;
+}
+
+.vertical-timeline-element-title,
+.vertical-timeline-element-subtitle {
+  color: black;
+}
+
+.vertical-timeline-element-description {
+  color: grey;
+}
+
+/* Adjust the timeline to be more responsive for mobile */
+@media (max-width: 768px) {
+  .vertical-timeline-element-content {
+      margin-left: 0 !important;
+      padding: 15px;
+  }
+
+  .vertical-timeline-element-content-arrow {
+      display: none; /* Hide the arrow for mobile */
+  }
+
+  /* Adjust icon size for mobile */
+  .vertical-timeline-element-icon {
+      width: 30px;
+      height: 30px;
+  }
+
+  /* Adjust title and subtitle size for mobile */
+  .vertical-timeline-element-title {
+      font-size: 1.2rem;
+  }
+
+  .vertical-timeline-element-subtitle {
+      font-size: 1rem;
+  }
+
+  .vertical-timeline-element-description {
+      font-size: 0.9rem;
+  }
+}
+
+/* Optionally, tweak for very small devices (e.g., phones under 576px wide) */
+@media (max-width: 576px) {
+  .experience-title {
+      font-size: 1.5rem;
+  }
+
+  .vertical-timeline-element-title {
+      font-size: 1rem;
+  }
+
+  .vertical-timeline-element-subtitle {
+      font-size: 0.9rem;
+  }
+
+  .vertical-timeline-element-description {
+      font-size: 0.8rem;
+  }
+}

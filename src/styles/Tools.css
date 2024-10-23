@@ -1,0 +1,153 @@
+.tools-title {
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 30px;
+  }
+  
+  .tools-title:hover {
+    color: yellow;
+  }
+  
+  .tools-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Marquee Container */
+  .tools-marquee {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+  }
+  
+  /* Marquee Wrapper */
+  .marquee-wrapper {
+    display: flex;
+    animation: marquee 20s linear infinite; /* Continuous, seamless animation */
+  }
+  
+  /* Hover effect to pause marquee */
+  .tools-marquee:hover .marquee-wrapper {
+    animation-play-state: paused; /* Pauses the animation */
+  }
+  
+  /* Content for the marquee */
+  .marquee-content {
+    display: flex;
+    gap: 40px; /* Adjusted gap between items */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* tool item with image and text */
+  .tool-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .tool-item img {
+    width: 80px; /* Smaller size for attractiveness */
+    height: 80px;
+    object-fit: cover;
+    transition: transform 0.3s ease; /* Smooth scaling on hover */
+  }
+  
+  .tool-item img:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+  }
+  
+  .tool-item p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .tool-icon {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Adjusting the gap for mobile to ensure proper spacing */
+  @media (max-width: 768px) {
+    .marquee-content {
+        gap: 20px; /* Reduce gap between items on smaller screens */
+    }
+  
+    .tool-item p {
+        font-size: 1rem; /* Adjust text size for mobile */
+    }
+  
+    .tool-icon {
+        width: 60px; /* Smaller icons for mobile */
+        height: 60px;
+    }
+  }
+  
+  /* Dynamic background colors based on the id */
+  .tool-icon-1:hover {
+    background-color: transparent; /* VSCode - Skyblue */
+    box-shadow: 0 4px 15px rgb(30, 165, 255); /* Enhanced shadow effect on hover */
+  }
+  
+  .tool-icon-2:hover {
+    background-color: transparent; /* Expo - Blue */
+    box-shadow: 0 4px 15px rgb(255, 255, 255); /* Enhanced shadow effect on hover */
+  }
+  
+  .tool-icon-3:hover {
+    background-color: transparent; /* AntDesign - Yellow */
+    box-shadow: 0 4px 15px rgb(0, 4, 253); /* Enhanced shadow effect on hover */
+  }
+  
+  .tool-icon-4:hover {
+    background-color: transparent; /* Bootstrap - Purple */
+    box-shadow: 0 4px 15px rgb(152, 0, 253); /* Enhanced shadow effect on hover */
+  }
+
+  .tool-icon-5:hover {
+    background-color: transparent; /* Git - Red */
+    box-shadow: 0 4px 15px rgb(253, 17, 0); /* Enhanced shadow effect on hover */
+  }
+  
+  .tool-icon-6:hover {
+    background-color: transparent; /* MsSql - Dark Blue */
+    box-shadow: 0 4px 15px rgb(231, 169, 247); /* Enhanced shadow effect on hover */
+  }
+  
+  .tool-icon-7:hover {
+    background-color: transparent; /* Spring - Green */
+    box-shadow: 0 4px 15px rgb(59, 241, 3); /* Enhanced shadow effect on hover */
+  }
+  
+  .tool-icon-8:hover {
+    background-color: transparent; /* Postman - Orange */
+    box-shadow: 0 4px 15px rgb(253, 114, 0); /* Enhanced shadow effect on hover */
+  }
+  
+  .tool-icon-9:hover {
+    background-color: transparent; /* Vercel - Orange */
+    box-shadow: 0 4px 15px rgb(255, 255, 255); /* Enhanced shadow effect on hover */
+  }
+  
+  /* Keyframes for smooth and continuous scrolling */
+  @keyframes marquee {
+    0% {
+        transform: translateX(100%); /* Start off-screen from the right */
+    }
+    100% {
+        transform: translateX(-100%); /* Move completely off-screen to the left */
+    }
+  }
+  

@@ -1,0 +1,132 @@
+.skills-title {
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.skills-title:hover {
+  color: yellow;
+}
+
+.skills-container {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Marquee Container */
+.skills-marquee {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+/* Marquee Wrapper */
+.marquee-wrapper {
+  display: flex;
+  animation: marquee 20s linear infinite; /* Continuous, seamless animation */
+}
+
+/* Hover effect to pause marquee */
+.skills-marquee:hover .marquee-wrapper {
+  animation-play-state: paused; /* Pauses the animation */
+}
+
+/* Content for the marquee */
+.marquee-content {
+  display: flex;
+  gap: 40px; /* Adjusted gap between items */
+  justify-content: center;
+  align-items: center;
+}
+
+/* Skill item with image and text */
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.skill-item img {
+  width: 80px; /* Smaller size for attractiveness */
+  height: 80px;
+  object-fit: cover;
+  transition: transform 0.3s ease; /* Smooth scaling on hover */
+}
+
+.skill-item img:hover {
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+.skill-item p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+}
+
+.skill-icon {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Adjusting the gap for mobile to ensure proper spacing */
+@media (max-width: 768px) {
+  .marquee-content {
+      gap: 20px; /* Reduce gap between items on smaller screens */
+  }
+
+  .skill-item p {
+      font-size: 1rem; /* Adjust text size for mobile */
+  }
+
+  .skill-icon {
+      width: 60px; /* Smaller icons for mobile */
+      height: 60px;
+  }
+}
+
+/* Dynamic background colors based on the id */
+.skill-icon-1:hover {
+  background-color: transparent; /* HTML5 - Orange */
+  box-shadow: 0 4px 15px rgb(253, 114, 0); /* Enhanced shadow effect on hover */
+}
+
+.skill-icon-2:hover {
+  background-color: transparent; /* CSS3 - Blue */
+  box-shadow: 0 4px 15px rgb(0, 38, 253); /* Enhanced shadow effect on hover */
+}
+
+.skill-icon-3:hover {
+  background-color: transparent; /* JavaScript - Yellow */
+  box-shadow: 0 4px 15px rgb(253, 236, 0); /* Enhanced shadow effect on hover */
+}
+
+.skill-icon-4:hover {
+  background-color: transparent; /* Java - Orange */
+  box-shadow: 0 4px 15px rgb(253, 114, 0); /* Enhanced shadow effect on hover */
+}
+
+.skill-icon-5:hover {
+  background-color: transparent; /* React - Light Blue */
+  box-shadow: 0 4px 15px rgb(0, 253, 253); /* Enhanced shadow effect on hover */
+}
+
+/* Keyframes for smooth and continuous scrolling */
+@keyframes marquee {
+  0% {
+      transform: translateX(100%); /* Start off-screen from the right */
+  }
+  100% {
+      transform: translateX(-100%); /* Move completely off-screen to the left */
+  }
+}

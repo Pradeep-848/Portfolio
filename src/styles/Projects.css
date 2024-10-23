@@ -1,0 +1,100 @@
+/* Container for the Projects */
+.projects-container {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    margin-top: 5%;
+  }
+  
+  .projects-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: white;
+  }
+
+  .projects-title:hover {
+    color: #fff000;
+  }
+
+  .title {
+    color: #fff000;
+  }
+
+  .description {
+    color: white;
+    font-size: 0.8rem;
+    margin-top: 2px;
+    text-align: center;
+  }
+
+  /* Wrapper for the scrollable content */
+  .scroll-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 0 auto;
+    max-width: 80%; /* Adjust the width of the scroll area */
+    overflow: hidden;
+  }
+  
+  /* Buttons for scrolling left and right */
+  .scroll-button {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    position: absolute;
+    z-index: 10;
+  }
+  
+  .scroll-button.left {
+    left: 0;
+  }
+  
+  .scroll-button.right {
+    right: 0;
+  }
+  
+  /* Container holding the project cards */
+  .cards-container {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 10px;
+  }
+  
+  /* Individual project cards */
+  .project-card {
+    background-color: #1e1e1e;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 250px;
+    max-width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+  
+  .project-image {
+    width: 100%; /* Set image width to fill the container */
+    height: 200px; /* Set a fixed height for all images */
+    object-fit: contain; /* Ensure the entire image is shown without cropping */
+    border-radius: 10px; /* Optional rounded corners */
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+  /* Scrollbar styles (optional) */
+  .cards-container::-webkit-scrollbar {
+    display: none; /* Hide the scrollbar */
+  }
+  
