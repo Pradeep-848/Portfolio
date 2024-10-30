@@ -30,7 +30,7 @@ function Layout() {
   return (
     <>
       <header>
-        <h3>PORTFOLIO</h3>
+        <h3>PRADEEP</h3>
         <nav className={isOpen ? "responsive_nav" : ""}>
           <a href="#about" onClick={() => scrollToSection(aboutRef)}>About</a>
           <a href="#skills" onClick={() => scrollToSection(skillsRef)}>Skills</a>
