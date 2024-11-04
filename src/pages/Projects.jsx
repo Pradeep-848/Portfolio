@@ -7,10 +7,10 @@ import aztracon from '../assets/projects/aztracon.webp'
 import dbquest from '../assets/projects/dbquest.jpg'
 
 const projectsData = [
-  { id: 1, title: 'Alzamil', description: 'ERP Application', img: aztracon, link: 'https://play.google.com/store/search?q=al+zamil+app&c=apps&hl=en'  },
+  { id: 1, title: 'Vintage Spare Parts', description: 'Vintage Spare Parts specializes in sourcing, restoring, and providing authentic, high-quality spare parts for classic vehicles.', img: vintage  },
   { id: 2, title: 'Weather App', description: 'Weather app providing current weather and forecast with cities-based search', img: weather, link: 'https://weather-app-smoky-chi.vercel.app/'  },
   { id: 3, title: 'Games', description: 'Small Works', img: games, link: 'https://games-rho-pearl.vercel.app/'  },
-  { id: 4, title: 'Vintage Spare Parts', description: 'Vintage Spare Parts specializes in sourcing, restoring, and providing authentic, high-quality spare parts for classic vehicles.', img: vintage },
+  { id: 4, title: 'Alzamil', description: 'ERP Application', img: aztracon, link: 'https://play.google.com/store/search?q=al+zamil+app&c=apps&hl=en' },
   { id: 5, title: 'DBQuest', description: 'Custom-built Enterprise Application', img: dbquest }, 
 ];
 
