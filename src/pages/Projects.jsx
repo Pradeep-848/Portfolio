@@ -3,7 +3,7 @@ import '../styles/Projects.css';
 import weather from '../assets/projects/weather.png'
 import vintage from '../assets/projects/Vintage.jpg'
 import games from '../assets/projects/games.png'
-import aztracon from '../assets/projects/aztracon.webp'
+import aztracon from '../assets/projects/aztracon.jpg'
 import dbquest from '../assets/projects/dbquest.jpg'
 
 const projectsData = [
