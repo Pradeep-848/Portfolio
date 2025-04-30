@@ -31,7 +31,7 @@
   
   .vertical-timeline-element-content {
     box-shadow: none !important;
-    border-left: 3px solid #bfa76a;
+    border-left: 3px solid #fff000;
     padding-left: 20px !important;
   }
 
@@ -48,7 +48,7 @@
       display: none;
   }
 
-/*   .vertical-timeline-element-title {
+  .vertical-timeline-element-title {
       font-size: 1.2rem;
   }
 
@@ -58,7 +58,7 @@
 
   .vertical-timeline-element-description {
       font-size: 0.9rem;
-  } */
+  }
 }
 
 /* Optionally, tweak for very small devices (e.g., phones under 576px wide) */
