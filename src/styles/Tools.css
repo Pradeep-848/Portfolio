@@ -118,7 +118,7 @@
   
   .tool-icon-5:hover {
     background-color: transparent; /* ShadCN - White */
-    box-shadow: 0 4px 15px rgb(255, 255, 255)(152, 0, 253); /* Enhanced shadow effect on hover */
+    box-shadow: 0 4px 15px rgb(255, 255, 255); /* Enhanced shadow effect on hover */
   }
 
   .tool-icon-6:hover {
