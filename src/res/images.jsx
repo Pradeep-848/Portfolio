@@ -2,6 +2,8 @@ import html from '../assets/icons/html.png'
 import css from '../assets/icons/css.png'
 import js from '../assets/icons/js.png'
 import bootstrap from '../assets/icons/bootstrap.png'
+import tailwind from '../assets/icons/tailwind.png'
+import shadcn from '../assets/icons/shadcn.png'
 import react from '../assets/icons/react.png'
 import git from '../assets/icons/git.png'
 import sql from '../assets/icons/sql.png'
@@ -21,6 +23,8 @@ const images = {
       react: react,  
       vscode: vscode,
       antdesign: antdesign, 
+      tailwind: tailwind
+      shadcn: shadcn
       expo: expo,  
       bootstrap: bootstrap,
       git: git, 
