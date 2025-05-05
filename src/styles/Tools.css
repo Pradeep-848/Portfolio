@@ -102,12 +102,12 @@
   }
   
   .tool-icon-2:hover {
-    background-color: transparent; /* Expo - Blue */
+    background-color: transparent; /* Expo - White */
     box-shadow: 0 4px 15px rgb(255, 255, 255); /* Enhanced shadow effect on hover */
   }
   
   .tool-icon-3:hover {
-    background-color: transparent; /* AntDesign - Yellow */
+    background-color: transparent; /* AntDesign - Blue */
     box-shadow: 0 4px 15px rgb(0, 4, 253); /* Enhanced shadow effect on hover */
   }
   
@@ -115,29 +115,39 @@
     background-color: transparent; /* Bootstrap - Purple */
     box-shadow: 0 4px 15px rgb(152, 0, 253); /* Enhanced shadow effect on hover */
   }
-
+  
   .tool-icon-5:hover {
+    background-color: transparent; /* ShadCN - White */
+    box-shadow: 0 4px 15px rgb(255, 255, 255)(152, 0, 253); /* Enhanced shadow effect on hover */
+  }
+
+  .tool-icon-6:hover {
+    background-color: transparent; /* Tailwind - Skyblue */
+    box-shadow: 0 4px 15px rgb(30, 165, 255)); /* Enhanced shadow effect on hover */
+  }
+
+  .tool-icon-7:hover {
     background-color: transparent; /* Git - Red */
     box-shadow: 0 4px 15px rgb(253, 17, 0); /* Enhanced shadow effect on hover */
   }
   
-  .tool-icon-6:hover {
+  .tool-icon-8:hover {
     background-color: transparent; /* MsSql - Dark Blue */
     box-shadow: 0 4px 15px rgb(231, 169, 247); /* Enhanced shadow effect on hover */
   }
   
-  .tool-icon-7:hover {
+  .tool-icon-9:hover {
     background-color: transparent; /* Spring - Green */
     box-shadow: 0 4px 15px rgb(59, 241, 3); /* Enhanced shadow effect on hover */
   }
   
-  .tool-icon-8:hover {
+  .tool-icon-10:hover {
     background-color: transparent; /* Postman - Orange */
     box-shadow: 0 4px 15px rgb(253, 114, 0); /* Enhanced shadow effect on hover */
   }
   
-  .tool-icon-9:hover {
-    background-color: transparent; /* Vercel - Orange */
+  .tool-icon-11:hover {
+    background-color: transparent; /* Vercel - White */
     box-shadow: 0 4px 15px rgb(255, 255, 255); /* Enhanced shadow effect on hover */
   }
   
