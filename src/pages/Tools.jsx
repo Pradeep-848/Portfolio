@@ -7,9 +7,9 @@ import Marquee from 'react-fast-marquee'; // Import react-fast-marquee
 const vscode = images.values.vscode;
 const expo = images.values.expo;
 const antdesign = images.values.antdesign;
+const bootstrap = images.values.bootstrap;
 const shadcn = images.values.shadcn;
 const tailwind = images.values.tailwind;
-const bootstrap = images.values.bootstrap;
 const git = images.values.git;
 const sql = images.values.sql;
 const spring = images.values.spring;
