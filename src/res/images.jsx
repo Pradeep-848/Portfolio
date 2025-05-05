@@ -23,8 +23,8 @@ const images = {
       react: react,  
       vscode: vscode,
       antdesign: antdesign, 
-      tailwind: tailwind
-      shadcn: shadcn
+      tailwind: tailwind,
+      shadcn: shadcn,
       expo: expo,  
       bootstrap: bootstrap,
       git: git, 
