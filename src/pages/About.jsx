@@ -20,7 +20,7 @@ function About() {
           In my spare time, I love exploring new technologies, 
           working on personal projects, and sharing knowledge with others.
         </p>
-        <button><a href='https://drive.google.com/file/d/1RKUWwQ4ndkmh8CUHbPSDopiBjC_OJpEP/view?usp=drive_link'  style={{textDecoration: 'none'}}>Resume</a></button>   
+        <button><a href='https://drive.google.com/file/d/1gtQ5LLO6jfs-f9JIK2u7jJDwtebhvBcu/view?usp=drive_link'  style={{textDecoration: 'none'}}>Resume</a></button>   
       </div>
     </div>
   );
