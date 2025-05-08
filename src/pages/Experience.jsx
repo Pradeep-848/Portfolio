@@ -17,17 +17,17 @@ const experienceData = [
   {
     id: 2,
     title: 'FreeLancing',
-    company: 'Amypo Technologies Pvt Ltd',
     duration: 'OCT 2023 - JAN 2024',
-    description: 'Developed live web applications, collaborated on projects, and improved coding skills.',
-    icon: <FaGraduationCap />,
+    description: 'Developed Web and Mobile App applications',
+    icon: <SiFuturelearn />,
   },
   {  
     id: 3,
     title: 'Software Developer Trainee',
+    company: 'Amypo Technologies Pvt Ltd',
     duration: 'MAY 2023 - AUG 2023',
-    description: 'Developed Web and Mobile App applications',
-    icon: <SiFuturelearn />,
+    description: 'Developed live web applications, collaborated on projects, and improved coding skills.',
+    icon: <FaBriefcase />,
   },
 ];
 
