@@ -9,9 +9,9 @@ const experienceData = [
   {
     id: 1,
     title: 'Software Developer',
-    company: 'DBQuest Business Solutions',
+    company: 'DBQuest Business Solutions Pvt Ltd',
     duration: 'MAR 2024 - FEB 2025',
-    description: 'Developed and maintained web & app applications using React, React Native, SpringBoot, MSSql and AWS services.',
+    description: 'Developed and maintained Web & Mobile App Applications using React, React Native, SpringBoot, MSSql and AWS services.',
     icon: <FaBriefcase />, 
   },
   {
