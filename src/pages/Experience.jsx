@@ -10,24 +10,24 @@ const experienceData = [
     id: 1,
     title: 'Software Developer',
     company: 'DBQuest Business Solutions',
-    duration: 'Mar 2024 - Present',
+    duration: 'MAR 2024 - FEB 2025',
     description: 'Developed and maintained web & app applications using React, React Native, SpringBoot, MSSql and AWS services.',
     icon: <FaBriefcase />, 
   },
   {
     id: 2,
     title: 'FreeLancing',
-    duration: 'September 2023 - Jan 2024',
-    description: 'Developed web and app applications',
-    icon: <SiFuturelearn />,
-  },
-  {
-    id: 3,
-    title: 'InternShip',
     company: 'Amypo Technologies Pvt Ltd',
-    duration: 'Feb 2023 - August 2023',
+    duration: 'OCT 2023 - JAN 2024',
     description: 'Developed live web applications, collaborated on projects, and improved coding skills.',
     icon: <FaGraduationCap />,
+  },
+  {  
+    id: 3,
+    title: 'Software Developer Trainee',
+    duration: 'MAY 2023 - AUG 2023',
+    description: 'Developed Web and Mobile App applications',
+    icon: <SiFuturelearn />,
   },
 ];
 
