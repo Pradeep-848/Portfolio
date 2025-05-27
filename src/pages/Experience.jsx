@@ -41,7 +41,7 @@ function Experience() {
             key={experience.id}
             date={experience.duration}
             icon={experience.icon}
-            iconStyle={{ background: '#3498db', color: '#fff' }} // Customize the icon color
+            iconStyle={{ background: '#fff000', color: '#fff' }} // Customize the icon color
             contentStyle={{
               background: window.innerWidth < 768 ? 'white' : '#f9f9f9',
               color: window.innerWidth < 768 ? 'white' : 'grey',
