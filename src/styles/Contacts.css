@@ -1,65 +1,133 @@
-.footer {
+.container {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  min-height: 20vh;
   align-items: center;
-  padding: 20px;
-  margin-top: 2%;
-  background-color: black; /* Footer background color */
-  color: #fff000; /* Text color */
-  position: relative;
-  width: 100%; /* Ensure it spans the full width */
-  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  justify-content: center;
+  padding: 1rem;
+  font-family: 'Inter', sans-serif;
 }
 
-.footer-content {
-  flex: 1; /* Take up equal space */
-  text-align: left; /* Align content to the left */
-}
-
-.footer-name {
-  font-size: 1.5em; /* Font size for name */
-}
-
-.footer-proverb {
-  flex: 1; /* Centered proverb takes up space in the middle */
-  text-align: center; /* Center text */
-  font-size: 1em; /* Adjust font size */
-}
-
-.footer-icons {
-  flex: 1; /* Take up equal space */
+.globeContainer {
+  flex: 1;
   display: flex;
-  gap: 2rem;
-  justify-content: flex-end; /* Align icons to the right */
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  height: 300px;
 }
 
-.footer-icons a {
-  margin-left: 10px; /* Spacing between icons */
-  color: #fff000; /* Icon color */
-  font-size: 1.5em; /* Adjust icon size */
-  transition: transform 0.2s; /* Smooth hover animation */
+.formContainer {
+  flex: 1;
+  padding: 1.5rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  background-color: white;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  max-width: 28rem;
 }
 
-.footer-icons a:hover {
-  transform: scale(1.2); /* Scale icons on hover */
+.formTitle {
+  font-size: 1.875rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #1f2937;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.formLabel {
+  display: block;
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #374151;
+  margin-bottom: 0.5rem;
+}
+
+.formInput {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.375rem;
+  font-size: 1rem;
+}
+
+.formInput:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+}
+
+.formTextarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.375rem;
+  font-size: 1rem;
+  resize: vertical;
+  min-height: 5rem;
+}
+
+.formTextarea:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+}
+
+.submitButton {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  background-color: #2563eb;
   color: white;
+  font-weight: 600;
+  border-radius: 0.375rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  border: none;
+  cursor: pointer;
+  font-size: 1.125rem;
+  transition: background-color 0.3s ease;
 }
 
-/* Media queries for responsiveness */
-@media (max-width: 768px) {
-  .footer {
-    flex-direction: column; /* Stack everything vertically */
-    align-items: center; /* Center everything */
+.submitButton:hover {
+  background-color: #1d4ed8;
+}
+
+.submitButton:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+}
+
+.formStatus {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #4b5563;
+}
+
+/* Media queries for desktop */
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
   }
 
-  .footer-content,
-  .footer-proverb,
-  .footer-icons {
-    text-align: center; /* Center text and icons */
-    margin-bottom: 10px; /* Add spacing between stacked sections */
-  }
-
-  .footer-icons {
-    justify-content: center; /* Center icons on smaller screens */
+  .globeContainer {
+    width: 50%;
+    height: 500px;
   }
 }
