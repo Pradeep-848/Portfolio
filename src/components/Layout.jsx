@@ -7,6 +7,7 @@ import Skills from "../pages/Skills";
 import Projects from "../pages/Projects";
 import Experience from "../pages/Experience";
 import Contacts from "../pages/Contacts";
+import Footer from "../components/Footer";
 
 function Layout() {
   const aboutRef = useRef(null);
@@ -73,6 +74,10 @@ function Layout() {
         </section>
         <section id="contacts" ref={contactsRef}>
           <Contacts />
+        </section>
+        
+        <section>
+          <Footer />
         </section>
       </div>
     </>
