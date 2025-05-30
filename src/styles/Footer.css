@@ -1,0 +1,65 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin-top: 2%;
+  background-color: black; /* Footer background color */
+  color: #fff000; /* Text color */
+  position: relative;
+  width: 100%; /* Ensure it spans the full width */
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.footer-content {
+  flex: 1; /* Take up equal space */
+  text-align: left; /* Align content to the left */
+}
+
+.footer-name {
+  font-size: 1.5em; /* Font size for name */
+}
+
+.footer-proverb {
+  flex: 1; /* Centered proverb takes up space in the middle */
+  text-align: center; /* Center text */
+  font-size: 1em; /* Adjust font size */
+}
+
+.footer-icons {
+  flex: 1; /* Take up equal space */
+  display: flex;
+  gap: 2rem;
+  justify-content: flex-end; /* Align icons to the right */
+}
+
+.footer-icons a {
+  margin-left: 10px; /* Spacing between icons */
+  color: #fff000; /* Icon color */
+  font-size: 1.5em; /* Adjust icon size */
+  transition: transform 0.2s; /* Smooth hover animation */
+}
+
+.footer-icons a:hover {
+  transform: scale(1.2); /* Scale icons on hover */
+  color: white;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column; /* Stack everything vertically */
+    align-items: center; /* Center everything */
+  }
+
+  .footer-content,
+  .footer-proverb,
+  .footer-icons {
+    text-align: center; /* Center text and icons */
+    margin-bottom: 10px; /* Add spacing between stacked sections */
+  }
+
+  .footer-icons {
+    justify-content: center; /* Center icons on smaller screens */
+  }
+}
