@@ -1,0 +1,81 @@
+.experience-container {
+  padding: 40px 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.experience-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.experience-title:hover {
+  color: #fff000;
+}
+
+.vertical-timeline-element-title,
+.vertical-timeline-element-subtitle {
+  color: black;
+}
+
+.vertical-timeline-element-description {
+  color: grey;
+}
+
+/* Adjust the timeline to be more responsive for mobile */
+@media (max-width: 768px) {
+  .custom-timeline::before {
+    left: 8px !important; 
+  }
+  
+  .vertical-timeline-element-content {
+    box-shadow: none !important;
+    border-left: 3px solid #fff000;
+    padding-left: 20px !important;
+  }
+
+  .vertical-timeline-element-date {
+    color: #999;
+    font-size: 0.85rem;
+  }
+
+  .vertical-timeline-element-icon {
+      left: 0 !important;
+  }
+  
+  .vertical-timeline-element-content-arrow {
+      display: none;
+  }
+
+  .vertical-timeline-element-title {
+      font-size: 1.2rem;
+  }
+
+  .vertical-timeline-element-subtitle {
+      font-size: 1rem;
+  }
+
+  .vertical-timeline-element-description {
+      font-size: 0.9rem;
+  }
+}
+
+/* Optionally, tweak for very small devices (e.g., phones under 576px wide) */
+@media (max-width: 576px) {
+  .experience-title {
+      font-size: 1.5rem;
+  }
+
+  .vertical-timeline-element-title {
+      font-size: 1rem;
+  }
+
+  .vertical-timeline-element-subtitle {
+      font-size: 0.9rem;
+  }
+
+  .vertical-timeline-element-description {
+      font-size: 0.8rem;
+  }
+}

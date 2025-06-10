@@ -1,0 +1,143 @@
+.projects-container {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  margin-top: 5%;
+}
+
+.projects-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.projects-title:hover {
+  color: #fff000;
+}
+
+.title {
+  color: #fff000;
+}
+
+.description {
+  color: white;
+  font-size: 0.8rem;
+  margin-top: 2px;
+  text-align: center;
+}
+
+.scroll-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 0 auto;
+  max-width: 80%; 
+  overflow: hidden;
+}
+
+.scroll-button {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 24px;
+  position: absolute;
+  z-index: 10;
+}
+
+.scroll-button.left {
+  left: 0;
+}
+
+.scroll-button.right {
+  right: 0;
+}
+
+.cards-container {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 10px;
+}
+
+.project-card {
+  background-color: #1e1e1e;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  min-width: 250px;
+  max-width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.05); 
+}
+
+.project-image {
+  width: 100%; 
+  height: 200px; 
+  object-fit: contain; 
+  border-radius: 10px; 
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.cards-container::-webkit-scrollbar {
+  display: none; 
+}
+
+
+/* .projects-container {
+  width: 100%;
+  padding: 60px 40px;
+  text-align: center;
+  background: #111;
+  margin-top: 5%;
+}
+
+.projects-title {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.projects-carousel {
+  padding: 0 10px;
+}
+
+.project-card {
+  background-color: #1e1e1e;
+  color: white;
+  padding: 10px;
+  border-radius: 12px;
+  margin: 10px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.project-image {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.project-card .title {
+  margin-top: 15px;
+  font-size: 1.2rem;
+  color: #ffd700;
+}
+
+.project-card .description {
+  font-size: 0.9rem;
+  margin-top: 8px;
+  color: #ccc;
+} */

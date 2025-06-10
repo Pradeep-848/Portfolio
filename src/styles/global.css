@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Antonio:wght@100..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 'Antonio', sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: #111111;
+  cursor: none;
+}
+
+/* .portfolio-content section {
+  padding: 50px 0;
+} */
+
+.cursor-dot {
+  width: 5px;
+  height: 5px;
+  background-color: white;
+}
+
+.cursor-outline {
+  width: 30px;
+  height: 30px;
+  border: 2px solid hsl(64, 100%, 50%);
+}
+
+.cursor-dot,
+.cursor-outline {
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: 1;
+  pointer-events: none;
+}
+
+:root {
+  --mainColor: #000000;
+  --mainColorLight: #5767aa;
+  --secondaryColor: #fff000;
+  --textColor: #eee;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Media query to hide cursor dot and outline on mobile */
+@media (max-width: 768px) {
+
+  /* You can adjust the breakpoint as needed */
+  .cursor-dot,
+  .cursor-outline {
+    display: none;
+    /* Hide cursor elements */
+  }
+}

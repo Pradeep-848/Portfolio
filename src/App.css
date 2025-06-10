@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Antonio:wght@100..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 'Antonio', sans-serif;
+}
+
+body {
+  background-color: #111111;
+  cursor: none;
+  /* This hides the default cursor */
+}
+
+/* Custom cursor elements */
+.cursor-dot {
+  width: 5px;
+  height: 5px;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: 9999;
+  /* Increased z-index to ensure it's above everything */
+  pointer-events: none;
+  /* Allows clicks to go through */
+  mix-blend-mode: difference;
+  /* Makes it visible on any background */
+}
+
+.cursor-outline {
+  width: 30px;
+  height: 30px;
+  border: 2px solid hsl(64, 100%, 50%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: 9998;
+  /* Slightly below the dot */
+  pointer-events: none;
+  transition: all 0.1s ease-out;
+  /* Smooth movement */
+}
+
+/* Optional: Add hover effects */
+a,
+button,
+[data-cursor-hover] {
+  cursor: none;
+  /* Ensure default cursor stays hidden */
+}
+
+/* Optional: Add a class for hover state */
+.cursor-outline.hover {
+  transform: translate(-50%, -50%) scale(1.5);
+  border-color: white;
+  background-color: rgba(255, 240, 0, 0.2);
+}
+
+/* Hide on touch devices */
+@media (hover: none) and (pointer: coarse) {
+
+  .cursor-dot,
+  .cursor-outline {
+    display: none;
+  }
+}
+
+:root {
+  --mainColor: #000000;
+  --mainColorLight: #5767aa;
+  --secondaryColor: #fff000;
+  --textColor: #eee;
+}
+
+.hidden {
+  display: none;
+}
