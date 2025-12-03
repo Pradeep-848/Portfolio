@@ -10,11 +10,11 @@ import weather from '../assets/projects/weather.png'
 //import games from '../assets/projects/games.png'
 
 const projectsData = [
-  { id: 1, title: 'Alzamil', description: 'Developed mobile applications for real-time ERP maintenance.', img: aztracon, link: 'https://play.google.com/store/search?q=al+zamil+app&c=apps&hl=en'  },
-  { id: 2, title: 'DBQuest', description: 'Developed mobile applications for an IT company, enabling employees and administrators to manage attendance, worksheets, and various other tasks efficiently.', img: dbquest  },
+  { id: 1, title: 'Alzamil', description: 'Developed mobile applications for real-time ERP maintenance.', img: aztracon, link: 'https://play.google.com/store/search?q=al+zamil+app&c=apps&hl=en' },
+  { id: 2, title: 'DBQuest', description: 'Developed mobile applications for an IT company, enabling employees and administrators to manage attendance, worksheets, and various other tasks efficiently.', img: dbquest },
   { id: 3, title: 'Pavillion (APP)', description: 'Wedding Pavillion App', img: stsapp },
   { id: 4, title: 'Pavillion (WEB)', description: 'Multi-screen interface with elegant UI for Weddings, Receptions, and Private Events', img: stsweb, link: 'https://stsmahal-web.vercel.app/' },
-  { id: 5, title: 'Smartbot', description: 'ChatGpt Clone', img: smartbot, link: 'https://drive.google.com/file/d/1WMQ4aKaYmEA2VbteG001lX684j0GIL7Q/view?usp=drive_link'  },
+  { id: 5, title: 'Smartbot', description: 'ChatGpt Clone', img: smartbot, link: 'https://drive.google.com/file/d/1WMQ4aKaYmEA2VbteG001lX684j0GIL7Q/view?usp=drive_link' },
   { id: 6, title: 'Weather App', description: 'Weather app providing current weather and forecast with cities-based search', img: weather, link: 'https://weather-app-smoky-chi.vercel.app/' },
   //{ id: 3, title: 'Vintage Spare Parts', description: 'Vintage Spare Parts specializes in sourcing, restoring, and providing authentic, high-quality spare parts for classic vehicles.', img: vintage },
   //{ id: 5, title: 'Games', description: 'Small Works', img: games, link: 'https://games-rho-pearl.vercel.app/'  }, 
@@ -42,10 +42,10 @@ function Projects() {
         </button>
         <div className="cards-container" ref={scrollContainerRef}>
           {projectsData.map((project) => (
-            <div key={project.id} className="project-card">  
+            <div key={project.id} className="project-card">
               <a href={project.link} target='_blank' rel='noopener noreferrer' style={{ textDecoration: 'none' }}>
-              <img src={project.img} alt={project.title} className="project-image" />
-              <h4 className='title'>{project.title}</h4>
+                <img src={project.img} alt={project.title} className="project-image" />
+                <h4 className='title'>{project.title}</h4>
               </a>
               <p className='description'>{project.description}</p>
             </div>
@@ -83,7 +83,7 @@ export default Projects;
 //   //{ id: 3, title: 'Vintage Spare Parts', description: 'Vintage Spare Parts specializes in sourcing, restoring, and providing authentic, high-quality spare parts for classic vehicles.', img: vintage },
 //   { id: 4, title: 'STS Pavillion (WEB)', description: 'Multi-screen interface with elegant UI for Weddings, Receptions, and Private Events', img: stsweb, link: 'https://stsmahal-web.vercel.app/' },
 //   { id: 5, title: 'Weather App', description: 'Weather app providing current weather and forecast with cities-based search', img: weather, link: 'https://weather-app-smoky-chi.vercel.app/' },
-//   //{ id: 5, title: 'Games', description: 'Small Works', img: games, link: 'https://games-rho-pearl.vercel.app/'  }, 
+//   //{ id: 5, title: 'Games', description: 'Small Works', img: games, link: 'https://games-rho-pearl.vercel.app/'  },
 // ];
 
 // const settings = {
